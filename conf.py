@@ -26,9 +26,12 @@ import datetime
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinxtogithub', 'sphinx.ext.intersphinx', 'sphinx.ext.todo']
-sphinx_to_github = True
-sphinx_to_github_verbose = True
+# extensions = ['sphinxtogithub', 'sphinx.ext.intersphinx', 'sphinx.ext.todo']
+# 
+# I (==zmijunkie) do not know which conda package to take: 
+# /Applications/Anaconda3/anaconda/bin/pip install git+https://github.com/nyergler/hieroglyph#egg=hieroglyph
+# this worked for me
+extensions = ['hieroglyph']
 
 
 # Add any paths that contain templates here, relative to this directory.
@@ -226,8 +229,8 @@ man_pages = [
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
-    'python': ('http://docs.python.org/release/2.6.6', None),
-    'transmogrifier': ('http://packages.pyhton.org/collective.transmogrifier', None),
-    'jsonmigrator': ('http://collective.github.com/collective.blueprint.jsonmigrator', None),
-    'usersandgroups': ('http://collective.github.com/collective.blueprint.usersandgroups', None),
+    'python': ('https://docs.python.org/release/2.7.15', None),
+    'transmogrifier': ('https://packages.pyhton.org/collective.transmogrifier', None),
+    'jsonmigrator': ('https://collective.github.com/collective.blueprint.jsonmigrator', None),
+    'usersandgroups': ('https://github.com/collective/collective.blueprint.usersandgroups', None),
 }
