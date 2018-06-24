@@ -1,17 +1,30 @@
-Migrations with Transmogrifier
-==============================
+.. Presentation title documentation master file, created by
+   sphinx-quickstart on Sat Jun 23 16:04:07 2018.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-.. image:: images/img1.gif
-    :width: 100%
+Welcome to the overhauled version of Rok Garbas Presentation by Sascha Gresk (ZMIJunkie)  !
+===========================================================================================
 
 .. toctree::
-    :maxdepth: 1
+   :maxdepth: 2
+   :caption: Contents:
 
-    what_is_tm
-    basics
-    default_blueprints
-    other_useful_blueprints
-    lessons_learned
-    example_migration
-    credits
+   foreword
 
+   basics
+    
+   default_blueprints
+   example_migration
+   lessons_learned
+   other_useful_blueprints
+   what_is_tm
+
+   credits
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
